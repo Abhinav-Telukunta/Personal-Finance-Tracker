@@ -2,6 +2,8 @@ import pandas as pd
 import random
 from datetime import datetime, timedelta
 
+# sample script for generating csv file for transaction data
+
 data = {
     'email': [],
     'accname': [],
