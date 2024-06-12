@@ -1,5 +1,3 @@
-# Personal Finance Tracker
-
 ## Introduction
 
 Welcome to the Personal Finance Tracker! This application helps you manage your finances by tracking expenses, managing accounts, and categorizing your spending. With a user-friendly interface and powerful backend, this tool makes personal finance management a breeze.
