@@ -1,0 +1,112 @@
+.view {
+    display: flex;
+    flex-direction: column;
+    gap: 20px; 
+    align-items: center;
+    height: 100vh;
+}
+
+  
+  table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  th, td {
+    border: 1px solid #ddd;
+    padding: 8px;
+  }
+  
+  th {
+    background-color: #f2f2f2;
+  }
+  
+  .input-group {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+  
+  input[type="text"] {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px 0 0 4px;
+    outline: none;
+    width: 300px;
+  }
+  
+  input[type="text"]::placeholder {
+    color: #999;
+  }
+  
+  .search-button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 0 4px 4px 0;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  .search-button:hover {
+    background-color: #0056b3;
+  }
+
+
+  .pagination {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    padding: 0;
+  }
+  
+  .pagination li {
+    margin: 0 5px;
+  }
+  
+  .pagination li a {
+    cursor: pointer;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    color: #333;
+    text-decoration: none;
+  }
+  
+  .pagination li.active a {
+    background-color: #007bff;
+    color: white;
+    border-color: #007bff;
+  }
+  
+  .pagination li a:hover {
+    background-color: #ddd;
+  }
+
+
+  .query-selector-container h2 {
+    margin-bottom: 1rem;
+    font-size: 1.5rem;
+    color: black;
+  }
+  
+  .query-selector {
+    padding: 0.5rem;
+    font-size: 1rem;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+    width: 300px;
+  }
+  
+  .query-selector optgroup {
+    font-weight: bold;
+    color: #007bff;
+  }
+  
+  .query-selector option {
+    padding: 0.5rem;
+  }
+  
+  
+  
